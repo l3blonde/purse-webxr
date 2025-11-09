@@ -2,6 +2,7 @@
 
 ## Assignment Details
 
+Live Demo: https://purse-webxr.vercel.app
 Thomas More University College
 Digital Product Architecture
 Development 5 Assignment Simple VR Experience with WebXR
@@ -18,10 +19,12 @@ But it also works perfectly fine on desktop without any VR gear which is good fo
 
 ## Requirements We Met
 
-All 5 requirements are done
-
 **1. Open the web link**
-Test 3D model.
+Test 3D model, live version here:  https://purse-webxr.vercel.app
+Use your mouse to drag and rotate the bag around or use the keyboard controls to move the camera.
+You can see the purse from all angles in full 3D.
+You can rotate it around with your mouse or keyboard to see it from every angle.
+The 3D model has all its textures and materials embedded so it looks proper.
 
 **2. Start a WebXR VR Session**
 Theres an Enter VR button that shows up if you have VR hardware connected.
@@ -73,11 +76,7 @@ Then open localhost 3000 in your browser
 
 ## Testing VR Features
 
-Heres the thing about VR testing. The WebXR emulators in browsers dont really work properly. They have bugs and missing features so when you try to enter VR mode with an emulator youll probably get errors like pointer.getIntersection is not a function.
-
-This is normal and expected. The emulators just cant simulate everything that real VR hardware provides. My code is correct and follows WebXR standards but you need actual VR goggles to test it properly.
-
-For this assignment the desktop mode works perfectly and shows all the concepts. The VR code is there and its correct but testing it needs real hardware which is pretty standard in VR development.
+Testing needs real hardware which is pretty standard in VR development.
 
 If you do have a Meta Quest or similar
 1. Put on the headset
@@ -108,12 +107,3 @@ Theres a BLENDER-GUIDE.md file with instructions if you need to do that.
 
 Desktop testing works great. VR testing needs actual hardware.
 This is a known limitation with WebXR emulators not a problem with the code.
-
-## What Works
-
-Everything on desktop. Keyboard controls mouse rotation proper lighting and centering
-VR session code. Fully implemented following WebXR standards
-Controller interaction. Trigger for grab and place grip for rotation
-All 5 assignment requirements completed
-The app demonstrates a working 3D viewer with proper WebXR integration for VR.
-Even though testing the VR features properly requires real VR hardware which is standard in the industry.
